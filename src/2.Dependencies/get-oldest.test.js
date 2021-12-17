@@ -1,7 +1,7 @@
 import getOldest from './get-oldest';
-import orderby from 'some_cool_orderby';
+import orderby from 'lodash.orderby';
 
-jest.mock('some_cool_orderby', () => {
+jest.mock('lodash.orderby', () => {
   return jest.fn();
 });
 
